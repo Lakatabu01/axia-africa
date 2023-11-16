@@ -6,6 +6,7 @@ export default {
       blue: "#202054",
       white: "#ffffff",
       orange: "#f0b73f",
+      secondary: "#faf5ee",
     },
     extend: {},
   },

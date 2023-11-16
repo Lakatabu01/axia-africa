@@ -6,7 +6,7 @@ import ApplyButton from "./apply-btn";
 
 function Header() {
   return (
-    <div className="bg-green-200 w-full justify-center flex py-8 p-4 items-center">
+    <div className=" w-full justify-center flex py-20 p-4 items-center fixed bg-white h-8 -mt-8">
       <div className="justify-between flex  items-center w-4/5 ">
         <div>
           <img src={logo} alt="Axia logo" />

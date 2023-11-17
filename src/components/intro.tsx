@@ -31,7 +31,11 @@ const Intro = () => {
       </div>
 
       <div className="flex w-full justify-start pl-2">
-        <img className="w-2/5" src={Doddle} alt="bubble graphics" />
+        <img
+          className="w-2/5 animate-[bounce_3s_ease-in-out_infinite]"
+          src={Doddle}
+          alt="bubble graphics"
+        />
       </div>
     </div>
   );

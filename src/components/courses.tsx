@@ -17,7 +17,7 @@ function Courses() {
 
         <div className="grid grid-cols-3 gap-5 ">
           {/*Card 1*/}
-          <div className=" border-l-4 border-t-4 border-b-4 pl-2 flex justify-center ">
+          <div className=" border-l-3 border-t-3 border-b-3 pl-2 flex justify-center ">
             <div className="bg-secondary w-96  ">
               <div>
                 {" "}
@@ -28,7 +28,7 @@ function Courses() {
                 />
               </div>
               <div className="m-5">
-                <h2 className="font-bold">Product Design</h2>
+                <h2 className="font-bold text-2xl">Product Design</h2>
                 <p className="py-4 text-blue text-base">
                   Design user experiences for products in today’s digital world.
                   Build a portfolio that showcases your ability to transform
@@ -44,18 +44,24 @@ function Courses() {
           </div>
 
           {/*Card 2*/}
-          <div className=" border-l-4 border-t-4 border-b-4 pl-2 flex justify-center">
-            <div className="bg-secondary w-96 p-5">
-              <div></div>
+          <div className=" border-l-3 border-t-3 border-b-3 pl-2 flex justify-center">
+            <div className="bg-secondary w-96 ">
               <div>
-                <h2 className="font-bold">Data Analytics</h2>
+                <img
+                  src={course2}
+                  alt="work table "
+                  className="w-full -mt-16"
+                />
+              </div>
+              <div className="m-5">
+                <h2 className="font-bold text-2xl">Data Analytics</h2>
                 <p className="py-4 text-blue text-base">
                   Use Python, SQL, and statistics to uncover insights,
                   communicate critical findings, and create data-driven
                   solutions
                 </p>
               </div>
-              <div>
+              <div className="m-5">
                 <a href="#">
                   <p className="underline text-blue">Enroll now</p>
                 </a>
@@ -64,17 +70,23 @@ function Courses() {
           </div>
 
           {/*Card 3*/}
-          <div className=" border-l-4 border-t-4 border-b-4 pl-2 flex justify-center">
-            <div className="bg-secondary w-96 p-5">
-              <div></div>
+          <div className=" border-l-3 border-t-3 border-b-3 pl-2 flex justify-center">
+            <div className="bg-secondary w-96 ">
               <div>
-                <h2 className="font-bold">Front-End Development</h2>
+                <img
+                  src={course2}
+                  alt="work table "
+                  className="w-full -mt-16"
+                />
+              </div>
+              <div className="m-5">
+                <h2 className="font-bold text-2xl">Front-End Development</h2>
                 <p className="py-4 text-blue text-base">
                   Begin our front-end development program structured to help
                   students launch a new career in web development.
                 </p>
               </div>
-              <div>
+              <div className="m-5">
                 {" "}
                 <a href="#">
                   <p className="underline text-blue">Enroll now</p>

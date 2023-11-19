@@ -8,7 +8,9 @@ function Courses() {
     <div className="flex justify-center mt-28">
       <div className="w-4/5">
         <div>
-          <h2 className="text-3xl font-bold pt-4">Courses for you</h2>
+          <h2 className="text-3xl font-bold pt-4 font-serif">
+            Courses for you
+          </h2>
           <p className="mt-6 mb-28">
             Here are some courses from our schools that we offer. <br />
             Enroll and kickstart your career.
@@ -36,8 +38,21 @@ function Courses() {
                 </p>
               </div>
               <div className="m-5">
-                <a href="#">
+                <a href="#" className="flex font-bold">
                   <p className="underline text-blue">Enroll now</p>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    className="w-6 h-6 pl-2">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                    />
+                  </svg>
                 </a>
               </div>
             </div>
@@ -62,8 +77,21 @@ function Courses() {
                 </p>
               </div>
               <div className="m-5">
-                <a href="#">
+                <a href="#" className="flex font-bold">
                   <p className="underline text-blue">Enroll now</p>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    className="w-6 h-6 pl-2">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                    />
+                  </svg>
                 </a>
               </div>
             </div>
@@ -88,8 +116,21 @@ function Courses() {
               </div>
               <div className="m-5">
                 {" "}
-                <a href="#">
+                <a href="#" className="flex font-bold">
                   <p className="underline text-blue">Enroll now</p>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    className="w-6 h-6 pl-2">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                    />
+                  </svg>
                 </a>
               </div>
             </div>

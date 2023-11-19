@@ -8,6 +8,10 @@ export default {
       orange: "#f0b73f",
       secondary: "#faf5ee",
       black: "#000",
+      brown: "#faf5ee",
+      grad1: "#ab2638",
+      grad2: "#f0b73f",
+      grad3: "linear-gradient(65deg,#ab2638,#f0b73f)",
     },
     borderWidth: {
       DEFAULT: "1px",
@@ -16,7 +20,26 @@ export default {
       3: "3px",
       4: "4px",
     },
-    extend: {},
+
+    extend: {
+      keyframes: {
+        lefty: {
+          "0%, ": { left: "0" },
+          "20%": { left: "0" },
+          "25%": { left: "-100%" },
+          "45%": { left: "-100%" },
+          "50%": { left: "-200%" },
+          "70%": { left: "-200%" },
+          "75%": { left: "-300%" },
+          "95%": { left: "-300%" },
+          "100%": { left: "-400%" },
+        },
+      },
+      cardStyle: {
+        backgroundColor: "green",
+        padding: "2rem",
+      },
+    },
   },
   plugins: [],
 };

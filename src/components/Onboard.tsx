@@ -6,7 +6,9 @@ const Onboard = () => {
     <div className="bg-black w-full text-white flex justify-center">
       <div className="w-4/5 p-20">
         <div>
-          <h2 className="text-3xl font-bold pb-20">Get onboard with us</h2>
+          <h2 className="text-3xl font-bold pb-20 font-serif">
+            Get onboard with us
+          </h2>
         </div>
         <div className="flex items-center">
           <div className="pr-8">
@@ -28,7 +30,9 @@ const Onboard = () => {
         </div>
 
         <div>
-          <h3 className="text-3xl font-bold py-12">- Why choose us</h3>
+          <h3 className="text-3xl font-bold py-12 font-serif">
+            - Why choose us
+          </h3>
           <p>
             We at Axia Africa are intentional about our students and focused
             about building a community. The tech space in Africa is fast growing

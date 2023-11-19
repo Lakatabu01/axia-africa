@@ -3,18 +3,18 @@ import onboard from "../assets/onboard.svg";
 
 const Onboard = () => {
   return (
-    <div className="bg-black w-full text-white flex justify-center">
-      <div className="w-4/5 p-20">
+    <div className="bg-black w-full text-white flex flex-col md:flex-row justify-center">
+      <div className="md:w-4/5 w-full pt-8 p-2 md:p-20">
         <div>
-          <h2 className="text-3xl font-bold pb-20 font-serif">
+          <h2 className="md:text-3xl text-2xl font-bold pb-20 font-serif">
             Get onboard with us
           </h2>
         </div>
-        <div className="flex items-center">
+        <div className="flex flex-col md:flex-row items-center">
           <div className="pr-8">
             <img src={onboard} alt="Conference room" />
           </div>
-          <div className="w-2/4 pl-8">
+          <div className="md:w-2/4 w-full pt-8 md:pt-0 md:pl-8">
             <p className="pb-6">
               Axia Africa is an organization that is focused on equipping
               African youths with the knowledge and digital skills needed today
@@ -29,7 +29,7 @@ const Onboard = () => {
           </div>
         </div>
 
-        <div>
+        <div className="pb-12 md:pb-0">
           <h3 className="text-3xl font-bold py-12 font-serif">
             - Why choose us
           </h3>

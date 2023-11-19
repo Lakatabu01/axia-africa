@@ -14,7 +14,7 @@ const Foster = () => {
         <div>
           <img src={foster} alt="" />
         </div>
-        <div className="w-3/5 mt-12">
+        <div className="md:w-3/5 mt-12">
           <p className="text-white">
             Don’t just wait around, Register and join our students ready to
             enroll and kick start their tech career.

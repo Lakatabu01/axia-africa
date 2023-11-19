@@ -5,22 +5,22 @@ import Doddle from "../assets/doddle.svg";
 
 const Intro = () => {
   return (
-    <div className="flex w-full  flex-col justify-center items-center">
-      <div className="w-4/5 flex justify-between mt-32">
-        <div className="w-3/5">
-          <h1 className="text-5xl mb-8 font-serif">
+    <div className="flex w-full  flex-col  justify-center items-center md:text-base text-sm">
+      <div className="md:w-4/5 md:px-0 w-full px-2 flex md:flex-row flex-col justify-between  mt-32">
+        <div className="md:w-3/5 w-full md:flex-none flex  flex-col items-center justify-center ">
+          <h1 className="md:text-5xl text-xl md:8 mb-4 font-serif text-center md:w-full w-9/12 md:text-left">
             Accelerate your career with{" "}
             <span className="text-grad1">job-ready</span> tech skills
           </h1>
 
-          <p className="text-lg">
+          <p className="md:text-lg text-sm">
             Begin your tech journey and expand your career opportunities in the
             tech space by learning tech skills in demand
           </p>
 
-          <div className="flex mt-6 items-center justify-between px-4 w-4/5">
+          <div className="flex flex-col md:flex-row mt-6 items-center justify-between px-4 w-4/5">
             <ApplyButton />
-            <a href="#" className="flex text-blue font-bold">
+            <a href="#" className="flex text-blue font-bold my-6 md:my-0">
               <p className="underline">Speak with an advisor</p>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -40,13 +40,13 @@ const Intro = () => {
         </div>
 
         <div>
-          <img src={image} alt="water mark" />
+          <img className="" src={image} alt="water mark" />
         </div>
       </div>
 
-      <div className="flex w-full justify-start pl-2">
+      <div className="  md:pl-0 pl-2 ">
         <img
-          className="w-2/5 animate-[bounce_3s_ease-in-out_infinite]"
+          className="w-2/5   animate-[bounce_3s_ease-in-out_infinite]"
           src={Doddle}
           alt="bubble graphics"
         />

@@ -3,8 +3,8 @@ import doddle from "../assets/doddle2.svg";
 
 function Discovery() {
   return (
-    <div className="w-full flex justify-center mt-20">
-      <div className="w-4/5">
+    <div className="w-[100%] md:flex md:justify-center border mt-20">
+      <div className="w-[70%]">
         <div className="flex ">
           <div>
             <h2 className="text-3xl font-bold pb-8 font-serif">
@@ -25,7 +25,7 @@ function Discovery() {
           </div>
         </div>
 
-        <div className="flex flex-wrap w-full justify-center mt-24">
+        <div className="flex md:flex-row flex-wrap flex-col w-full justify-center mt-24">
           {/*Card 1*/}
           <div className=" border-l-3  border-b-3 pl-2 flex justify-center m-8 ">
             <div className="bg-secondary w-96 -mt-12">

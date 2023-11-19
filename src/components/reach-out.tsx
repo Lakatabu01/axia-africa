@@ -3,13 +3,13 @@ import advisor from "../assets/advisor.svg";
 
 const ReachOut = () => {
   return (
-    <div className="w-full mt-28 bg-blue flex justify-center">
-      <div className=" w-4/5 flex py-16">
-        <div className="w-1/2 mr-10 pr-20">
-          <h2 className="text-3xl font-bold pt-4 text-white font-serif">
+    <div className="w-full mt-28 bg-blue flex justify-center ">
+      <div className=" md:w-4/5  w-full  flex flex-col md:flex-row py-16  items-start">
+        <div className="md:w-1/2 md:mr-10 md:pr-20  md:p-0 p-2">
+          <h2 className="md:text-3xl text-xl font-bold pt-4 text-white font-serif">
             Confused about what to learn?
           </h2>
-          <p className="text-white my-8">
+          <p className="text-white text-base my-8">
             Speak with our professional tech advisors to help kick start your
             tech journey and pilot you to being an expert in your desired field.
           </p>
@@ -18,8 +18,8 @@ const ReachOut = () => {
             Speak with Advisor
           </button>{" "}
         </div>
-        <div>
-          <img src={advisor} alt="" />
+        <div className="w-full flex justify-center mt-6">
+          <img className="w-4/5" src={advisor} alt="" />
         </div>
       </div>
     </div>

@@ -1,4 +1,3 @@
-import React from "react";
 import onboard from "../assets/onboard.svg";
 
 const Onboard = () => {

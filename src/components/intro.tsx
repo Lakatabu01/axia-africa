@@ -1,4 +1,3 @@
-import React from "react";
 import image from "../assets/giant-watermark.svg";
 import ApplyButton from "./apply-btn";
 import Doddle from "../assets/doddle.svg";

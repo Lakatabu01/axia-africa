@@ -1,4 +1,3 @@
-import React from "react";
 import foster from "../assets/foster.png";
 
 const Foster = () => {

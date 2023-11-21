@@ -3,11 +3,11 @@ import doddle from "../assets/doddle2.svg";
 
 function Discovery() {
   return (
-    <div className="w-[100%] md:flex md:justify-center border mt-20">
-      <div className="w-[70%]">
-        <div className="flex ">
-          <div>
-            <h2 className="text-3xl font-bold pb-8 font-serif">
+    <div className="w-[100%] md:flex md:justify-center p-4 md:p-0  mt-20">
+      <div className="md:w-[70%] w-full">
+        <div className="flex md:flex-row flex-col -mb-28 md:mb-0 ">
+          <div className="">
+            <h2 className="md:text-3xl text-xl font-bold pb-8 font-serif">
               Discover the right school for your journey
             </h2>
             <p>
@@ -18,19 +18,21 @@ function Discovery() {
           </div>
           <div>
             <img
-              className=" animate-[bounce_3s_ease-in-out_infinite]"
+              className="w-1/2 md:w-full animate-[bounce_3s_ease-in-out_infinite]"
               src={doddle}
               alt="graphics"
             />
           </div>
         </div>
 
-        <div className="flex md:flex-row flex-wrap flex-col w-full justify-center mt-24">
+        <div className="flex md:flex-row  md:flex-wrap flex-col w-full items-center md:justify-center  mt-24">
           {/*Card 1*/}
-          <div className=" border-l-3  border-b-3 pl-2 flex justify-center m-8 ">
-            <div className="bg-secondary w-96 -mt-12">
-              <div className="m-5">
-                <h2 className="font-bold text-2xl">School of Product</h2>
+          <div className="w-[90%] md:w-2/5 border-l-3  border-b-3 md:pl-2 flex justify-center m-8 ">
+            <div className="bg-secondary w-96 -mt-12 md:max-h-[65vh]">
+              <div className="m-5  ">
+                <h2 className="font-bold md:text-xl text-base">
+                  School of Product
+                </h2>
                 <p className="py-4 text-black text-base">
                   We offer you Product courses such as Product Design,Product
                   management and Product marketing by equipping you with the
@@ -60,10 +62,10 @@ function Discovery() {
           </div>
 
           {/*Card 2*/}
-          <div className=" border-l-3  border-b-3 pl-2 flex justify-center m-8">
-            <div className="bg-secondary w-96 -mt-12">
+          <div className="w-[90%] md:w-2/5 border-l-3 mt-20 md:mt-0 border-b-3 md:pl-2 flex justify-center m-8">
+            <div className="bg-secondary w-96 -mt-12 md:max-h-[65vh]">
               <div className="m-5 ">
-                <h2 className="font-bold text-2xl">
+                <h2 className="font-bold md:text-xl text-base">
                   School of Systems Engineering
                 </h2>
                 <p className="py-4 text-black text-base">
@@ -96,10 +98,12 @@ function Discovery() {
           </div>
 
           {/*Card 3*/}
-          <div className=" border-l-3  border-b-3 pl-2 flex justify-center mt-20 m-8">
-            <div className="bg-secondary w-96 -mt-12">
-              <div className="m-5">
-                <h2 className="font-bold text-2xl">School of Data</h2>
+          <div className="w-[90%] md:w-2/5 border-l-3  border-b-3 md:pl-2 flex justify-center mt-20 m-8">
+            <div className="bg-secondary w-96 -mt-12 md:max-h-[65vh]">
+              <div className="m-5 ">
+                <h2 className="font-bold md:text-2xl text-base">
+                  School of Data
+                </h2>
                 <p className="py-4 text-black text-base">
                   Even as a newbie in the data analysis space, you can jumpstart
                   your journey and hone your skills by kicking it off with the

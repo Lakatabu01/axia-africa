@@ -4,7 +4,7 @@ import onboard from "../assets/onboard.svg";
 const Onboard = () => {
   return (
     <div className="bg-black w-full text-white flex flex-col md:flex-row justify-center">
-      <div className="md:w-4/5 w-full pt-8 p-2 md:p-20">
+      <div className="md:w-4/5 w-full pt-8 p-4 md:p-20">
         <div>
           <h2 className="md:text-3xl text-2xl font-bold pb-20 font-serif">
             Get onboard with us
@@ -30,7 +30,7 @@ const Onboard = () => {
         </div>
 
         <div className="pb-12 md:pb-0">
-          <h3 className="text-3xl font-bold py-12 font-serif">
+          <h3 className="md:text-3xl text-2xl font-bold py-12 font-serif">
             - Why choose us
           </h3>
           <p>

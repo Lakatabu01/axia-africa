@@ -5,7 +5,7 @@ const ReachOut = () => {
   return (
     <div className="w-full mt-28 bg-blue flex justify-center ">
       <div className=" md:w-4/5  w-full  flex flex-col md:flex-row py-16  items-start">
-        <div className="md:w-1/2 md:mr-10 md:pr-20  md:p-0 p-2">
+        <div className="md:w-1/2 md:mr-10 md:pr-20  md:p-0 p-4">
           <h2 className="md:text-3xl text-xl font-bold pt-4 text-white font-serif">
             Confused about what to learn?
           </h2>

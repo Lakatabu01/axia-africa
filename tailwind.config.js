@@ -34,6 +34,14 @@ export default {
           "95%": { left: "-300%" },
           "100%": { left: "-400%" },
         },
+        scroll: {
+          "0%": {
+            transform: "translateX(0)",
+          },
+          "100%": {
+            transform: "translateX(-100%)",
+          },
+        },
       },
       cardStyle: {
         backgroundColor: "green",

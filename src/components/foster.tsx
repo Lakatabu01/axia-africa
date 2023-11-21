@@ -3,8 +3,8 @@ import foster from "../assets/foster.png";
 
 const Foster = () => {
   return (
-    <div className="w-full flex justify-center bg-black mt-20">
-      <div className="w-4/5 mt-20">
+    <div className="w-full p-4 md:p-0 flex justify-center bg-black mt-20">
+      <div className="md:w-4/5 mt-20">
         <div className="mb-16">
           {" "}
           <h2 className="text-white font-bold text-2xl font-serif">

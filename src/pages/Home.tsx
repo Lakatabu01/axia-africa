@@ -11,16 +11,16 @@ import Footer from "../components/footer";
 
 const Home = () => {
   return (
-    <div className=" w-screen bg-orange ">
+    <div className=" w-full ">
       <Header />
       <Intro />
       <Courses />
       <ReachOut />
       <Onboard />
-      {/* <Discovery />     highly problematic */}
+      <Discovery />
       <Foster />
-      {/*<SuccessStories />
-      <Footer /> */}
+      <SuccessStories />
+      <Footer />
     </div>
   );
 };

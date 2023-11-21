@@ -5,8 +5,8 @@ import course3 from "../assets/course3.png";
 
 function Courses() {
   return (
-    <div className="w-full bg-black flex justify-center mt-14 md:mt-28 ">
-      <div className="md:w-4/5 w-full  p-2 md:p-0">
+    <div className="w-[100%]  flex justify-center mt-14 md:mt-28 ">
+      <div className="md:w-4/5 w-full  p-4 md:p-0">
         <div>
           <h2 className="text-3xl font-bold pt-4 font-serif">
             Courses for you

@@ -3,7 +3,7 @@ import Home from "./pages/Home";
 const App = () => {
   return (
     <>
-      <div className="w-[100%] bg-grad1 ">
+      <div>
         <Home />
       </div>
     </>

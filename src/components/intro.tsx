@@ -6,7 +6,7 @@ import Doddle from "../assets/doddle.svg";
 const Intro = () => {
   return (
     <div className="flex w-full  flex-col  justify-center items-center md:text-base text-sm">
-      <div className="md:w-4/5 md:px-0 w-full px-2 flex md:flex-row flex-col justify-between  mt-32">
+      <div className="md:w-4/5 md:px-0 w-full px-4 flex md:flex-row flex-col justify-between  mt-32">
         <div className="md:w-3/5 w-full md:flex-none flex  flex-col items-center justify-center ">
           <h1 className="md:text-5xl text-xl md:8 mb-4 font-serif text-center md:w-full w-9/12 md:text-left">
             Accelerate your career with{" "}
@@ -18,9 +18,9 @@ const Intro = () => {
             tech space by learning tech skills in demand
           </p>
 
-          <div className="flex flex-col md:flex-row mt-6 items-center justify-between px-4 w-4/5">
+          <div className="flex flex-col md:flex-row md:mt-6 mt-10 items-center justify-between px-4 w-4/5">
             <ApplyButton />
-            <a href="#" className="flex text-blue font-bold my-6 md:my-0">
+            <a href="#" className="flex text-blue font-bold my-8 md:my-0">
               <p className="underline">Speak with an advisor</p>
               <svg
                 xmlns="http://www.w3.org/2000/svg"

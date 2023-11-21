@@ -1,4 +1,3 @@
-import React from "react";
 import doddle from "../assets/doddle2.svg";
 
 function Discovery() {

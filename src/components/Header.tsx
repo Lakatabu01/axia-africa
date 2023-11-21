@@ -1,8 +1,6 @@
-import React from "react";
 import logo from "../assets/axia-logo.svg";
 import NavButton from "./nav-btn";
 import ApplyButton from "./apply-btn";
-import Dropdown from "./dropdown";
 import { useState } from "react";
 
 function Header() {
@@ -78,12 +76,12 @@ function Header() {
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
-                stroke-width="1.5"
+                strokeWidth="1.5"
                 stroke="currentColor"
                 className="w-6 h-4 pl-2 ">
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M19.5 8.25l-7.5 7.5-7.5-7.5"
                 />
               </svg>
@@ -111,12 +109,12 @@ function Header() {
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
-                stroke-width="1.5"
+                strokeWidth="1.5"
                 stroke="currentColor"
                 className="w-6 h-4 pl-2 ">
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M19.5 8.25l-7.5 7.5-7.5-7.5"
                 />
               </svg>
@@ -147,8 +145,8 @@ function Header() {
             stroke="currentColor"
             className={`w-6 h-6 ${dropped ? "hidden" : ""}`}>
             <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               d="M3.75 9h16.5m-16.5 6.75h16.5"
             />
           </svg>
@@ -157,12 +155,12 @@ function Header() {
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
-            stroke-width="1.5"
+            strokeWidth="1.5"
             stroke="currentColor"
             className={`w-6 h-6 ${!dropped ? "hidden" : ""}`}>
             <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               d="M6 18L18 6M6 6l12 12"
             />
           </svg>

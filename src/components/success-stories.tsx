@@ -1,4 +1,3 @@
-import React from "react";
 import deco1 from "../assets/deco1.svg";
 import deco2 from "../assets/deco2.svg";
 import image1 from "../assets/fabilola.png";

@@ -1,9 +1,6 @@
-import React from "react";
 import image1 from "../assets/fabilola.png";
 import image2 from "../assets/nwodo.png";
 import image3 from "../assets/ogunshina.png";
-import image4 from "../assets/olakanmi.png";
-import image5 from "../assets/osunleke.png";
 import image6 from "../assets/oyegunle.png";
 import image7 from "../assets/oyinlola.png";
 

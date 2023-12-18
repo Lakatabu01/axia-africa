@@ -2,6 +2,8 @@ React TypeScript Vite Tailwind Landing Page
 
 This project is a cloned landing page for an online bootcamp, built with React, TypeScript, Vite, and Tailwind CSS. It provides a responsive and modern user interface to showcase the features and offerings of the online bootcamp.
 
+Link to live - https://axia-africa-clone.vercel.app/
+
 Features
 React: Utilizes the power and flexibility of React for building dynamic and interactive components.
 TypeScript: Enhances code readability and maintainability with the benefits of static typing.
